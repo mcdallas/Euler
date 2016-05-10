@@ -1,7 +1,6 @@
 # e36.py
 
 '''
-
 The decimal number, 585 = 10010010012 (binary),
 is palindromic in both bases.
 
@@ -23,4 +22,4 @@ if __name__ == '__main__':
         if ispalindrome(i) and ispalindrome(dec_to_bin(i)):
             solutions.add(i)
 
-    print(sum(solutions))        
+    print(sum(solutions))
